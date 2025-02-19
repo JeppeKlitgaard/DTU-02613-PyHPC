@@ -1,0 +1,10 @@
+*.bl
+*.npy
+*.png
+*.txt
+*.zip
+
+.venv/
+
+*.out
+*.err

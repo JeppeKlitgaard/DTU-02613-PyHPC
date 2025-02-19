@@ -1,0 +1,11 @@
+[project]
+name = "pyhpc"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "blosc>=1.11.2",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+]
