@@ -18,7 +18,7 @@ if __name__ == '__main__':
     time_start = timer()
     n_proc = int(sys.argv[1])
 
-    samples = 1000000
+    samples = 10000000
     hits = 0
 
     chunk_size = samples//n_proc
