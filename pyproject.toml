@@ -4,8 +4,15 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "blosc>=1.11.2",
+    "line-profiler>=4.2.0",
     "matplotlib>=3.10.0",
     "numpy>=2.2.3",
     "pandas>=2.2.3",
+    "rich>=13.9.4",
     "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
 ]
