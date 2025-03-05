@@ -9,9 +9,12 @@
 #BSUB -o w5e2_1_%J.out
 #BSUB -e w5e2_1_%J.err
 # Run nodestat -F on a host to find available nodes
-echo "impl_1"
-time python -u impl_1.py
-echo "impl_2"
-time python -u impl_2.py
-echo "impl_3"
-time python -u impl_3.py
+printf "n_proc\ttime"
+python -u 2_4.py 1
+python -u 2_4.py 2
+python -u 2_4.py 3
+python -u 2_4.py 4
+python -u 2_4.py 5
+python -u 2_4.py 6
+python -u 2_4.py 7
+python -u 2_4.py 8
