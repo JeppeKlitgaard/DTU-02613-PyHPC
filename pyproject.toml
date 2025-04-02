@@ -12,6 +12,7 @@ dependencies = [
     "pyarrow>=19.0.1",
     "rich>=13.9.4",
     "seaborn>=0.13.2",
+    "zarr==2.18.4",
 ]
 
 [dependency-groups]

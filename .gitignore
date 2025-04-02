@@ -3,6 +3,9 @@
 *.png
 *.txt
 *.zip
+*.zarr
+*.raw
+*.parquet
 
 .venv/
 
