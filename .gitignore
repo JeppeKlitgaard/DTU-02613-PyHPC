@@ -11,3 +11,5 @@
 
 *.out
 *.err
+*.nsys-rep
+*.sqlite
