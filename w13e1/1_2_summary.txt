@@ -1,0 +1,19 @@
+uv run python 1_1.py 1> /work3/02613/dump/w13e1_2_2_%J.out 2> /work3/02613/dump/w13e1_2_2_%J.err
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.78 sec.
+    Max Memory :                                 7 MB
+    Average Memory :                             6.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1017.00 MB
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   1 sec.
+    Turnaround time :                            1 sec.
+
+The output (if any) is above this job summary.
